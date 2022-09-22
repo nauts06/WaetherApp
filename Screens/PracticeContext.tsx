@@ -9,7 +9,7 @@ interface ContextType {
   setCapital: any;
 }
 const PracticeProvider = ({ children }: { children: any }) => {
-  const [val, setVal] = useState<any>(null);
+  const [val, setVal] = useState<any>("");
   const [capital, setCapital] = useState<any>(null);
 
   return (
